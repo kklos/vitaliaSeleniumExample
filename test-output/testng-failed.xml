@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value="https://vitalia.pl/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="sample test(failed)">
+    <classes>
+      <class name="com.pack.common.tests.CreateAnAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyCreateAnAccounPage"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.CreateAnAccountTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
